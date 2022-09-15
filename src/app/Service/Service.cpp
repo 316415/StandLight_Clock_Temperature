@@ -85,5 +85,16 @@ void Service::updateState(std::string strState)
             }
             view->setState(lightState);
         break;
+
+        case WARNING:
+            if (strState == "modeButton") {
+                lightState = LIGHT_OFF;
+            }
+            if (strState == "powerButton")
+            {
+                lightState = LIGHT_OFF;  
+            }
+            view->setState(lightState);
+        break;        
     }
 }

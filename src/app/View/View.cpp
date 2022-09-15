@@ -4,8 +4,8 @@
 
 View::View(Led *led1, Led *led2, Led *led3, Led *led4, Led *led5, LCD *lcd)
 {
-    char buff[30];
-    int state = 0;
+    // char buff[30];
+    // int state = 0;
     // sprintf(buff, "state : %d", state);
     // lcd->WriteStringXY(0,0,buff);
     light1 = led1;
@@ -25,9 +25,9 @@ View::~View()
 void View::setState(int state)
 {
     lightState = state;
-    char buff[30];
-    sprintf(buff, "                ");
-    lcd->WriteStringXY(0, 0, buff);
+    // char buff[30];
+    // sprintf(buff, "                ");
+    // lcd->WriteStringXY(0, 0, buff);
 }
 
 
@@ -57,6 +57,9 @@ void View::lightView()
 
         case LIGHT_5:
             lightOn_5();
+        break;
+
+        case WARNING:
         break;
     }
 }

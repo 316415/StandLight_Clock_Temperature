@@ -36,11 +36,11 @@ int main()
 
     View view(&led1, &led2, &led3, &led4, &led5, &lcd);
     ClockView clockView(&lcd);
-    TempHumidView tempHumidView(&lcd);
+    TempHumidView tempHumidView(&lcd, &led1, &led2, &led3, &led4, &led5);
 
     Service service(&view);
     ClockService clockService(&clockView);
-    TempHumidService tempHumidService(&tempHumidView);
+    TempHumidService tempHumidService(&tempHumidView, &view);
     
     Controller control(&service, &clockService, &tempHumidService);
     Listener listener(&modeButton, &powerButton, &control, &clockCheck, &dht);
