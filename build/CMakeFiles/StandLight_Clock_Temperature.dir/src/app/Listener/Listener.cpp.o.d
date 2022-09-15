@@ -195,6 +195,6 @@ CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Listener/Listener.cpp.o: \
  /home/ubuntu/project/StandLight_Clock_Temperature/./src/hw/DHT11/DHT_Data.h \
  /home/ubuntu/project/StandLight_Clock_Temperature/./src/app/Service/TempHumidService.h \
  /home/ubuntu/project/StandLight_Clock_Temperature/./src/app/View/TempHumidView.h \
+ /usr/local/include/wiringPi.h \
  /home/ubuntu/project/StandLight_Clock_Temperature/./src/hw/ClockCheck/ClockCheck.h \
- /home/ubuntu/project/StandLight_Clock_Temperature/./src/hw/DHT11/DHT11.h \
- /usr/local/include/wiringPi.h
+ /home/ubuntu/project/StandLight_Clock_Temperature/./src/hw/DHT11/DHT11.h

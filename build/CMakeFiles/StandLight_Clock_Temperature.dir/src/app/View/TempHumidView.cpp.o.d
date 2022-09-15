@@ -179,4 +179,6 @@ CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/TempHumidView.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/cstring \
- /usr/include/string.h /usr/include/strings.h
+ /usr/include/string.h /usr/include/strings.h \
+ /home/ubuntu/project/StandLight_Clock_Temperature/./src/hw/Led/Led.h \
+ /usr/local/include/wiringPi.h

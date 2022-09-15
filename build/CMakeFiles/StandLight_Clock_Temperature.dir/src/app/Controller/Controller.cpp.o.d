@@ -192,4 +192,5 @@ CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Controller/Controller.cpp.o:
  /home/ubuntu/project/StandLight_Clock_Temperature/./src/hw/DHT11/DHT_Data.h \
  /home/ubuntu/project/StandLight_Clock_Temperature/./src/hw/DHT11/DHT_Data.h \
  /home/ubuntu/project/StandLight_Clock_Temperature/./src/app/Service/TempHumidService.h \
- /home/ubuntu/project/StandLight_Clock_Temperature/./src/app/View/TempHumidView.h
+ /home/ubuntu/project/StandLight_Clock_Temperature/./src/app/View/TempHumidView.h \
+ /usr/local/include/wiringPi.h

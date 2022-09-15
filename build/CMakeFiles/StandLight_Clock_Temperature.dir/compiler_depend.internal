@@ -233,6 +233,7 @@ CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Controller/Controller.cpp.o
  /home/ubuntu/project/StandLight_Clock_Temperature/src/hw/DHT11/DHT_Data.h
  /home/ubuntu/project/StandLight_Clock_Temperature/src/app/Service/TempHumidService.h
  /home/ubuntu/project/StandLight_Clock_Temperature/src/app/View/TempHumidView.h
+ /usr/local/include/wiringPi.h
 
 CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Listener/Listener.cpp.o
  /home/ubuntu/project/StandLight_Clock_Temperature/src/app/Listener/Listener.cpp
@@ -468,9 +469,9 @@ CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Listener/Listener.cpp.o
  /home/ubuntu/project/StandLight_Clock_Temperature/src/hw/DHT11/DHT_Data.h
  /home/ubuntu/project/StandLight_Clock_Temperature/src/app/Service/TempHumidService.h
  /home/ubuntu/project/StandLight_Clock_Temperature/src/app/View/TempHumidView.h
+ /usr/local/include/wiringPi.h
  /home/ubuntu/project/StandLight_Clock_Temperature/src/hw/ClockCheck/ClockCheck.h
  /home/ubuntu/project/StandLight_Clock_Temperature/src/hw/DHT11/DHT11.h
- /usr/local/include/wiringPi.h
 
 CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/ClockService.cpp.o
  /home/ubuntu/project/StandLight_Clock_Temperature/src/app/Service/ClockService.cpp
@@ -1147,6 +1148,10 @@ CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/TempHumidService.cpp
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
+ /home/ubuntu/project/StandLight_Clock_Temperature/src/hw/Led/Led.h
+ /usr/local/include/wiringPi.h
+ /home/ubuntu/project/StandLight_Clock_Temperature/src/app/View/View.h
+ /home/ubuntu/project/StandLight_Clock_Temperature/src/app/Service/LightState.h
 
 CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/ClockView.cpp.o
  /home/ubuntu/project/StandLight_Clock_Temperature/src/app/View/ClockView.cpp
@@ -1593,6 +1598,8 @@ CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/TempHumidView.cpp.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
+ /home/ubuntu/project/StandLight_Clock_Temperature/src/hw/Led/Led.h
+ /usr/local/include/wiringPi.h
 
 CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/View.cpp.o
  /home/ubuntu/project/StandLight_Clock_Temperature/src/app/View/View.cpp
