@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/project/StandLight_Clock
+CMAKE_SOURCE_DIR = /home/ubuntu/project/StandLight_Clock_Temperature
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/project/StandLight_Clock/build
+CMAKE_BINARY_DIR = /home/ubuntu/project/StandLight_Clock_Temperature/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/StandLight_Clock.dir/all
+all: CMakeFiles/StandLight_Clock_Temperature.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/StandLight_Clock.dir/clean
+clean: CMakeFiles/StandLight_Clock_Temperature.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/StandLight_Clock.dir
+# Target rules for target CMakeFiles/StandLight_Clock_Temperature.dir
 
 # All Build rule for target.
-CMakeFiles/StandLight_Clock.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/project/StandLight_Clock/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target StandLight_Clock"
-.PHONY : CMakeFiles/StandLight_Clock.dir/all
+CMakeFiles/StandLight_Clock_Temperature.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/project/StandLight_Clock_Temperature/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target StandLight_Clock_Temperature"
+.PHONY : CMakeFiles/StandLight_Clock_Temperature.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/StandLight_Clock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/project/StandLight_Clock/build/CMakeFiles 13
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/StandLight_Clock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/project/StandLight_Clock/build/CMakeFiles 0
-.PHONY : CMakeFiles/StandLight_Clock.dir/rule
+CMakeFiles/StandLight_Clock_Temperature.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/project/StandLight_Clock_Temperature/build/CMakeFiles 16
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/StandLight_Clock_Temperature.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/project/StandLight_Clock_Temperature/build/CMakeFiles 0
+.PHONY : CMakeFiles/StandLight_Clock_Temperature.dir/rule
 
 # Convenience name for target.
-StandLight_Clock: CMakeFiles/StandLight_Clock.dir/rule
-.PHONY : StandLight_Clock
+StandLight_Clock_Temperature: CMakeFiles/StandLight_Clock_Temperature.dir/rule
+.PHONY : StandLight_Clock_Temperature
 
 # clean rule for target.
-CMakeFiles/StandLight_Clock.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/clean
-.PHONY : CMakeFiles/StandLight_Clock.dir/clean
+CMakeFiles/StandLight_Clock_Temperature.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/clean
+.PHONY : CMakeFiles/StandLight_Clock_Temperature.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

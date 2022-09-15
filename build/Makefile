@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/project/StandLight_Clock
+CMAKE_SOURCE_DIR = /home/ubuntu/project/StandLight_Clock_Temperature
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/project/StandLight_Clock/build
+CMAKE_BINARY_DIR = /home/ubuntu/project/StandLight_Clock_Temperature/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/project/StandLight_Clock/build/CMakeFiles /home/ubuntu/project/StandLight_Clock/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/project/StandLight_Clock_Temperature/build/CMakeFiles /home/ubuntu/project/StandLight_Clock_Temperature/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/project/StandLight_Clock/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/project/StandLight_Clock_Temperature/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named StandLight_Clock
+# Target rules for targets named StandLight_Clock_Temperature
 
 # Build rule for target.
-StandLight_Clock: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StandLight_Clock
-.PHONY : StandLight_Clock
+StandLight_Clock_Temperature: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StandLight_Clock_Temperature
+.PHONY : StandLight_Clock_Temperature
 
 # fast build rule for target.
-StandLight_Clock/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/build
-.PHONY : StandLight_Clock/fast
+StandLight_Clock_Temperature/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/build
+.PHONY : StandLight_Clock_Temperature/fast
 
 src/app/Controller/Controller.o: src/app/Controller/Controller.cpp.o
 .PHONY : src/app/Controller/Controller.o
 
 # target to build an object file
 src/app/Controller/Controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Controller/Controller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Controller/Controller.cpp.o
 .PHONY : src/app/Controller/Controller.cpp.o
 
 src/app/Controller/Controller.i: src/app/Controller/Controller.cpp.i
@@ -142,7 +142,7 @@ src/app/Controller/Controller.i: src/app/Controller/Controller.cpp.i
 
 # target to preprocess a source file
 src/app/Controller/Controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Controller/Controller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Controller/Controller.cpp.i
 .PHONY : src/app/Controller/Controller.cpp.i
 
 src/app/Controller/Controller.s: src/app/Controller/Controller.cpp.s
@@ -150,7 +150,7 @@ src/app/Controller/Controller.s: src/app/Controller/Controller.cpp.s
 
 # target to generate assembly for a file
 src/app/Controller/Controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Controller/Controller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Controller/Controller.cpp.s
 .PHONY : src/app/Controller/Controller.cpp.s
 
 src/app/Listener/Listener.o: src/app/Listener/Listener.cpp.o
@@ -158,7 +158,7 @@ src/app/Listener/Listener.o: src/app/Listener/Listener.cpp.o
 
 # target to build an object file
 src/app/Listener/Listener.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Listener/Listener.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Listener/Listener.cpp.o
 .PHONY : src/app/Listener/Listener.cpp.o
 
 src/app/Listener/Listener.i: src/app/Listener/Listener.cpp.i
@@ -166,7 +166,7 @@ src/app/Listener/Listener.i: src/app/Listener/Listener.cpp.i
 
 # target to preprocess a source file
 src/app/Listener/Listener.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Listener/Listener.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Listener/Listener.cpp.i
 .PHONY : src/app/Listener/Listener.cpp.i
 
 src/app/Listener/Listener.s: src/app/Listener/Listener.cpp.s
@@ -174,7 +174,7 @@ src/app/Listener/Listener.s: src/app/Listener/Listener.cpp.s
 
 # target to generate assembly for a file
 src/app/Listener/Listener.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Listener/Listener.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Listener/Listener.cpp.s
 .PHONY : src/app/Listener/Listener.cpp.s
 
 src/app/Service/ClockService.o: src/app/Service/ClockService.cpp.o
@@ -182,7 +182,7 @@ src/app/Service/ClockService.o: src/app/Service/ClockService.cpp.o
 
 # target to build an object file
 src/app/Service/ClockService.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Service/ClockService.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/ClockService.cpp.o
 .PHONY : src/app/Service/ClockService.cpp.o
 
 src/app/Service/ClockService.i: src/app/Service/ClockService.cpp.i
@@ -190,7 +190,7 @@ src/app/Service/ClockService.i: src/app/Service/ClockService.cpp.i
 
 # target to preprocess a source file
 src/app/Service/ClockService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Service/ClockService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/ClockService.cpp.i
 .PHONY : src/app/Service/ClockService.cpp.i
 
 src/app/Service/ClockService.s: src/app/Service/ClockService.cpp.s
@@ -198,7 +198,7 @@ src/app/Service/ClockService.s: src/app/Service/ClockService.cpp.s
 
 # target to generate assembly for a file
 src/app/Service/ClockService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Service/ClockService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/ClockService.cpp.s
 .PHONY : src/app/Service/ClockService.cpp.s
 
 src/app/Service/Service.o: src/app/Service/Service.cpp.o
@@ -206,7 +206,7 @@ src/app/Service/Service.o: src/app/Service/Service.cpp.o
 
 # target to build an object file
 src/app/Service/Service.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Service/Service.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/Service.cpp.o
 .PHONY : src/app/Service/Service.cpp.o
 
 src/app/Service/Service.i: src/app/Service/Service.cpp.i
@@ -214,7 +214,7 @@ src/app/Service/Service.i: src/app/Service/Service.cpp.i
 
 # target to preprocess a source file
 src/app/Service/Service.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Service/Service.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/Service.cpp.i
 .PHONY : src/app/Service/Service.cpp.i
 
 src/app/Service/Service.s: src/app/Service/Service.cpp.s
@@ -222,15 +222,39 @@ src/app/Service/Service.s: src/app/Service/Service.cpp.s
 
 # target to generate assembly for a file
 src/app/Service/Service.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/Service/Service.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/Service.cpp.s
 .PHONY : src/app/Service/Service.cpp.s
+
+src/app/Service/TempHumidService.o: src/app/Service/TempHumidService.cpp.o
+.PHONY : src/app/Service/TempHumidService.o
+
+# target to build an object file
+src/app/Service/TempHumidService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/TempHumidService.cpp.o
+.PHONY : src/app/Service/TempHumidService.cpp.o
+
+src/app/Service/TempHumidService.i: src/app/Service/TempHumidService.cpp.i
+.PHONY : src/app/Service/TempHumidService.i
+
+# target to preprocess a source file
+src/app/Service/TempHumidService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/TempHumidService.cpp.i
+.PHONY : src/app/Service/TempHumidService.cpp.i
+
+src/app/Service/TempHumidService.s: src/app/Service/TempHumidService.cpp.s
+.PHONY : src/app/Service/TempHumidService.s
+
+# target to generate assembly for a file
+src/app/Service/TempHumidService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/Service/TempHumidService.cpp.s
+.PHONY : src/app/Service/TempHumidService.cpp.s
 
 src/app/View/ClockView.o: src/app/View/ClockView.cpp.o
 .PHONY : src/app/View/ClockView.o
 
 # target to build an object file
 src/app/View/ClockView.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/View/ClockView.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/ClockView.cpp.o
 .PHONY : src/app/View/ClockView.cpp.o
 
 src/app/View/ClockView.i: src/app/View/ClockView.cpp.i
@@ -238,7 +262,7 @@ src/app/View/ClockView.i: src/app/View/ClockView.cpp.i
 
 # target to preprocess a source file
 src/app/View/ClockView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/View/ClockView.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/ClockView.cpp.i
 .PHONY : src/app/View/ClockView.cpp.i
 
 src/app/View/ClockView.s: src/app/View/ClockView.cpp.s
@@ -246,15 +270,39 @@ src/app/View/ClockView.s: src/app/View/ClockView.cpp.s
 
 # target to generate assembly for a file
 src/app/View/ClockView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/View/ClockView.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/ClockView.cpp.s
 .PHONY : src/app/View/ClockView.cpp.s
+
+src/app/View/TempHumidView.o: src/app/View/TempHumidView.cpp.o
+.PHONY : src/app/View/TempHumidView.o
+
+# target to build an object file
+src/app/View/TempHumidView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/TempHumidView.cpp.o
+.PHONY : src/app/View/TempHumidView.cpp.o
+
+src/app/View/TempHumidView.i: src/app/View/TempHumidView.cpp.i
+.PHONY : src/app/View/TempHumidView.i
+
+# target to preprocess a source file
+src/app/View/TempHumidView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/TempHumidView.cpp.i
+.PHONY : src/app/View/TempHumidView.cpp.i
+
+src/app/View/TempHumidView.s: src/app/View/TempHumidView.cpp.s
+.PHONY : src/app/View/TempHumidView.s
+
+# target to generate assembly for a file
+src/app/View/TempHumidView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/TempHumidView.cpp.s
+.PHONY : src/app/View/TempHumidView.cpp.s
 
 src/app/View/View.o: src/app/View/View.cpp.o
 .PHONY : src/app/View/View.o
 
 # target to build an object file
 src/app/View/View.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/View/View.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/View.cpp.o
 .PHONY : src/app/View/View.cpp.o
 
 src/app/View/View.i: src/app/View/View.cpp.i
@@ -262,7 +310,7 @@ src/app/View/View.i: src/app/View/View.cpp.i
 
 # target to preprocess a source file
 src/app/View/View.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/View/View.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/View.cpp.i
 .PHONY : src/app/View/View.cpp.i
 
 src/app/View/View.s: src/app/View/View.cpp.s
@@ -270,7 +318,7 @@ src/app/View/View.s: src/app/View/View.cpp.s
 
 # target to generate assembly for a file
 src/app/View/View.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/app/View/View.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/app/View/View.cpp.s
 .PHONY : src/app/View/View.cpp.s
 
 src/hw/Button/Button.o: src/hw/Button/Button.cpp.o
@@ -278,7 +326,7 @@ src/hw/Button/Button.o: src/hw/Button/Button.cpp.o
 
 # target to build an object file
 src/hw/Button/Button.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/Button/Button.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/Button/Button.cpp.o
 .PHONY : src/hw/Button/Button.cpp.o
 
 src/hw/Button/Button.i: src/hw/Button/Button.cpp.i
@@ -286,7 +334,7 @@ src/hw/Button/Button.i: src/hw/Button/Button.cpp.i
 
 # target to preprocess a source file
 src/hw/Button/Button.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/Button/Button.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/Button/Button.cpp.i
 .PHONY : src/hw/Button/Button.cpp.i
 
 src/hw/Button/Button.s: src/hw/Button/Button.cpp.s
@@ -294,7 +342,7 @@ src/hw/Button/Button.s: src/hw/Button/Button.cpp.s
 
 # target to generate assembly for a file
 src/hw/Button/Button.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/Button/Button.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/Button/Button.cpp.s
 .PHONY : src/hw/Button/Button.cpp.s
 
 src/hw/ClockCheck/ClockCheck.o: src/hw/ClockCheck/ClockCheck.cpp.o
@@ -302,7 +350,7 @@ src/hw/ClockCheck/ClockCheck.o: src/hw/ClockCheck/ClockCheck.cpp.o
 
 # target to build an object file
 src/hw/ClockCheck/ClockCheck.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/ClockCheck/ClockCheck.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/ClockCheck/ClockCheck.cpp.o
 .PHONY : src/hw/ClockCheck/ClockCheck.cpp.o
 
 src/hw/ClockCheck/ClockCheck.i: src/hw/ClockCheck/ClockCheck.cpp.i
@@ -310,7 +358,7 @@ src/hw/ClockCheck/ClockCheck.i: src/hw/ClockCheck/ClockCheck.cpp.i
 
 # target to preprocess a source file
 src/hw/ClockCheck/ClockCheck.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/ClockCheck/ClockCheck.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/ClockCheck/ClockCheck.cpp.i
 .PHONY : src/hw/ClockCheck/ClockCheck.cpp.i
 
 src/hw/ClockCheck/ClockCheck.s: src/hw/ClockCheck/ClockCheck.cpp.s
@@ -318,15 +366,39 @@ src/hw/ClockCheck/ClockCheck.s: src/hw/ClockCheck/ClockCheck.cpp.s
 
 # target to generate assembly for a file
 src/hw/ClockCheck/ClockCheck.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/ClockCheck/ClockCheck.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/ClockCheck/ClockCheck.cpp.s
 .PHONY : src/hw/ClockCheck/ClockCheck.cpp.s
+
+src/hw/DHT11/DHT11.o: src/hw/DHT11/DHT11.cpp.o
+.PHONY : src/hw/DHT11/DHT11.o
+
+# target to build an object file
+src/hw/DHT11/DHT11.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/DHT11/DHT11.cpp.o
+.PHONY : src/hw/DHT11/DHT11.cpp.o
+
+src/hw/DHT11/DHT11.i: src/hw/DHT11/DHT11.cpp.i
+.PHONY : src/hw/DHT11/DHT11.i
+
+# target to preprocess a source file
+src/hw/DHT11/DHT11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/DHT11/DHT11.cpp.i
+.PHONY : src/hw/DHT11/DHT11.cpp.i
+
+src/hw/DHT11/DHT11.s: src/hw/DHT11/DHT11.cpp.s
+.PHONY : src/hw/DHT11/DHT11.s
+
+# target to generate assembly for a file
+src/hw/DHT11/DHT11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/DHT11/DHT11.cpp.s
+.PHONY : src/hw/DHT11/DHT11.cpp.s
 
 src/hw/I2C/I2C.o: src/hw/I2C/I2C.cpp.o
 .PHONY : src/hw/I2C/I2C.o
 
 # target to build an object file
 src/hw/I2C/I2C.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/I2C/I2C.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/I2C/I2C.cpp.o
 .PHONY : src/hw/I2C/I2C.cpp.o
 
 src/hw/I2C/I2C.i: src/hw/I2C/I2C.cpp.i
@@ -334,7 +406,7 @@ src/hw/I2C/I2C.i: src/hw/I2C/I2C.cpp.i
 
 # target to preprocess a source file
 src/hw/I2C/I2C.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/I2C/I2C.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/I2C/I2C.cpp.i
 .PHONY : src/hw/I2C/I2C.cpp.i
 
 src/hw/I2C/I2C.s: src/hw/I2C/I2C.cpp.s
@@ -342,7 +414,7 @@ src/hw/I2C/I2C.s: src/hw/I2C/I2C.cpp.s
 
 # target to generate assembly for a file
 src/hw/I2C/I2C.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/I2C/I2C.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/I2C/I2C.cpp.s
 .PHONY : src/hw/I2C/I2C.cpp.s
 
 src/hw/LCD/LCD.o: src/hw/LCD/LCD.cpp.o
@@ -350,7 +422,7 @@ src/hw/LCD/LCD.o: src/hw/LCD/LCD.cpp.o
 
 # target to build an object file
 src/hw/LCD/LCD.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/LCD/LCD.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/LCD/LCD.cpp.o
 .PHONY : src/hw/LCD/LCD.cpp.o
 
 src/hw/LCD/LCD.i: src/hw/LCD/LCD.cpp.i
@@ -358,7 +430,7 @@ src/hw/LCD/LCD.i: src/hw/LCD/LCD.cpp.i
 
 # target to preprocess a source file
 src/hw/LCD/LCD.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/LCD/LCD.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/LCD/LCD.cpp.i
 .PHONY : src/hw/LCD/LCD.cpp.i
 
 src/hw/LCD/LCD.s: src/hw/LCD/LCD.cpp.s
@@ -366,7 +438,7 @@ src/hw/LCD/LCD.s: src/hw/LCD/LCD.cpp.s
 
 # target to generate assembly for a file
 src/hw/LCD/LCD.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/LCD/LCD.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/LCD/LCD.cpp.s
 .PHONY : src/hw/LCD/LCD.cpp.s
 
 src/hw/Led/Led.o: src/hw/Led/Led.cpp.o
@@ -374,7 +446,7 @@ src/hw/Led/Led.o: src/hw/Led/Led.cpp.o
 
 # target to build an object file
 src/hw/Led/Led.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/Led/Led.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/Led/Led.cpp.o
 .PHONY : src/hw/Led/Led.cpp.o
 
 src/hw/Led/Led.i: src/hw/Led/Led.cpp.i
@@ -382,7 +454,7 @@ src/hw/Led/Led.i: src/hw/Led/Led.cpp.i
 
 # target to preprocess a source file
 src/hw/Led/Led.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/Led/Led.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/Led/Led.cpp.i
 .PHONY : src/hw/Led/Led.cpp.i
 
 src/hw/Led/Led.s: src/hw/Led/Led.cpp.s
@@ -390,7 +462,7 @@ src/hw/Led/Led.s: src/hw/Led/Led.cpp.s
 
 # target to generate assembly for a file
 src/hw/Led/Led.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/hw/Led/Led.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/hw/Led/Led.cpp.s
 .PHONY : src/hw/Led/Led.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -398,7 +470,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -406,7 +478,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -414,7 +486,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock.dir/build.make CMakeFiles/StandLight_Clock.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StandLight_Clock_Temperature.dir/build.make CMakeFiles/StandLight_Clock_Temperature.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -425,7 +497,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... StandLight_Clock"
+	@echo "... StandLight_Clock_Temperature"
 	@echo "... src/app/Controller/Controller.o"
 	@echo "... src/app/Controller/Controller.i"
 	@echo "... src/app/Controller/Controller.s"
@@ -438,9 +510,15 @@ help:
 	@echo "... src/app/Service/Service.o"
 	@echo "... src/app/Service/Service.i"
 	@echo "... src/app/Service/Service.s"
+	@echo "... src/app/Service/TempHumidService.o"
+	@echo "... src/app/Service/TempHumidService.i"
+	@echo "... src/app/Service/TempHumidService.s"
 	@echo "... src/app/View/ClockView.o"
 	@echo "... src/app/View/ClockView.i"
 	@echo "... src/app/View/ClockView.s"
+	@echo "... src/app/View/TempHumidView.o"
+	@echo "... src/app/View/TempHumidView.i"
+	@echo "... src/app/View/TempHumidView.s"
 	@echo "... src/app/View/View.o"
 	@echo "... src/app/View/View.i"
 	@echo "... src/app/View/View.s"
@@ -450,6 +528,9 @@ help:
 	@echo "... src/hw/ClockCheck/ClockCheck.o"
 	@echo "... src/hw/ClockCheck/ClockCheck.i"
 	@echo "... src/hw/ClockCheck/ClockCheck.s"
+	@echo "... src/hw/DHT11/DHT11.o"
+	@echo "... src/hw/DHT11/DHT11.i"
+	@echo "... src/hw/DHT11/DHT11.s"
 	@echo "... src/hw/I2C/I2C.o"
 	@echo "... src/hw/I2C/I2C.i"
 	@echo "... src/hw/I2C/I2C.s"

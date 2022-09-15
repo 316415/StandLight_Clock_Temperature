@@ -43,5 +43,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/StandLight_Clock.dir/DependInfo.cmake"
+  "CMakeFiles/StandLight_Clock_Temperature.dir/DependInfo.cmake"
   )

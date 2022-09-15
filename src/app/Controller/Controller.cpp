@@ -1,10 +1,11 @@
 #include "Controller.h"
 
-Controller::Controller(Service *serv, ClockService *clockServ)
+Controller::Controller(Service *serv, ClockService *clockServ, TempHumidService *tempHumidService)
 {
     service = serv;
     clockService = clockServ;
     lightState = LIGHT_OFF;
+    this->tempHumidService = tempHumidService;
 }
 
 Controller::~Controller()
@@ -28,4 +29,9 @@ void Controller::updateEvent(std::string strBtn)
         clockService->updateEvent();
     }
 
+}
+
+void Controller::updateTempHumid(DHT_Data dhtData)
+{
+    tempHumidService->updateEvent(dhtData);
 }

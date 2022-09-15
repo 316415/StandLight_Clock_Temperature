@@ -1,15 +1,18 @@
 cmake_minimum_required(VERSION 3.0.0)
 
-project(StandLight_Clock)
+project(StandLight_Clock_Temperature)
 
 add_executable(${PROJECT_NAME}
     ./src/main.cpp
+    ./src/app/Service/TempHumidService.cpp
     ./src/app/Service/ClockService.cpp
     ./src/app/Service/Service.cpp
     ./src/app/Listener/Listener.cpp
     ./src/app/Controller/Controller.cpp
+    ./src/app/View/TempHumidView.cpp
     ./src/app/View/View.cpp
     ./src/app/View/ClockView.cpp
+    ./src/hw/DHT11/DHT11.cpp
     ./src/hw/Button/Button.cpp
     ./src/hw/Led/Led.cpp
     ./src/hw/ClockCheck/ClockCheck.cpp
@@ -22,6 +25,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
     ./src/app/Listener
     ./src/app/Controller
     ./src/app/View
+    ./src/hw/DHT11
     ./src/hw/Button
     ./src/hw/Led
     ./src/hw/ClockCheck
